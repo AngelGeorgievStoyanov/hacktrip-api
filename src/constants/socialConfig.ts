@@ -65,9 +65,9 @@ export const SOCIAL_CONFIG: readonly SocialConfig[] = [
     targets: [
       target('tripGroup', enabledOperations('create', 'delete')),
       target('trip', enabledOperations('create', 'delete')),
-      target('point', enabledOperations('create', 'delete')),
-      target('image', enabledOperations('create', 'delete')),
-      target('comment', enabledOperations('create', 'delete')),
+      // target('point', enabledOperations('create', 'delete')),
+      // target('image', enabledOperations('create', 'delete')),
+      // target('comment', enabledOperations('create', 'delete')),
     ],
   },
   {
@@ -75,10 +75,10 @@ export const SOCIAL_CONFIG: readonly SocialConfig[] = [
     isActive: true,
     targets: [
       target('tripGroup', enabledOperations('create', 'delete')),
-      target('trip', enabledOperations('create', 'delete')),
-      target('point', enabledOperations('create', 'delete')),
-      target('image', enabledOperations('create', 'delete')),
-      target('comment', enabledOperations('create', 'delete')),
+      // target('trip', enabledOperations('create', 'delete')),
+      // target('point', enabledOperations('create', 'delete')),
+      // target('image', enabledOperations('create', 'delete')),
+      // target('comment', enabledOperations('create', 'delete')),
     ],
   },
   {
@@ -87,8 +87,8 @@ export const SOCIAL_CONFIG: readonly SocialConfig[] = [
     targets: [
       target('tripGroup', enabledOperations('create', 'delete')),
       target('trip', enabledOperations('create', 'delete')),
-      target('point', enabledOperations('create', 'delete')),
-      target('image', enabledOperations('create', 'delete')),
+      // target('point', enabledOperations('create', 'delete')),
+      // target('image', enabledOperations('create', 'delete')),
       target('comment', enabledOperations('create', 'delete')),
     ],
   },
@@ -98,8 +98,8 @@ export const SOCIAL_CONFIG: readonly SocialConfig[] = [
     targets: [
       target('tripGroup', enabledOperations('create')),
       target('trip', enabledOperations('create')),
-      target('point', enabledOperations('create')),
-      target('image', enabledOperations('create')),
+      // target('point', enabledOperations('create')),
+      // target('image', enabledOperations('create')),
       target('comment', enabledOperations('edit', 'delete')),
     ],
   },
@@ -109,8 +109,8 @@ export const SOCIAL_CONFIG: readonly SocialConfig[] = [
     targets: [
       target('tripGroup'),
       target('trip'),
-      target('point'),
-      target('image'),
+      // target('point'),
+      // target('image'),
       {
         key: 'comment',
         operations: disabledOperations(),
